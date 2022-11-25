@@ -62,3 +62,6 @@
 /Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/TangyWeb_Server/obj/Debug/net6.0/TangyWeb_Server.pdb
 /Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/TangyWeb_Server/obj/Debug/net6.0/TangyWeb_Server.genruntimeconfig.cache
 /Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/TangyWeb_Server/obj/Debug/net6.0/ref/TangyWeb_Server.dll
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/TangyWeb_Server/bin/Debug/net6.0/Tangy_Models.dll
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/TangyWeb_Server/bin/Debug/net6.0/Tangy_Models.pdb
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/TangyWeb_Server/obj/Debug/net6.0/TangyWeb_Server.csproj.CopyComplete

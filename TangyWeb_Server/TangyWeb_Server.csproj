@@ -12,4 +12,9 @@
   <ItemGroup>
     <Folder Include="Pages\LearnBlazor\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tangy_Models\Tangy_Models.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

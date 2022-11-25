@@ -1,0 +1,12 @@
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/Tangy_Models/bin/Debug/net6.0/Tangy_Models.deps.json
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/Tangy_Models/bin/Debug/net6.0/Tangy_Models.dll
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/Tangy_Models/bin/Debug/net6.0/Tangy_Models.pdb
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/Tangy_Models/obj/Debug/net6.0/Tangy_Models.csproj.AssemblyReference.cache
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/Tangy_Models/obj/Debug/net6.0/Tangy_Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/Tangy_Models/obj/Debug/net6.0/Tangy_Models.AssemblyInfoInputs.cache
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/Tangy_Models/obj/Debug/net6.0/Tangy_Models.AssemblyInfo.cs
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/Tangy_Models/obj/Debug/net6.0/Tangy_Models.csproj.CoreCompileInputs.cache
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/Tangy_Models/obj/Debug/net6.0/Tangy_Models.dll
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/Tangy_Models/obj/Debug/net6.0/refint/Tangy_Models.dll
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/Tangy_Models/obj/Debug/net6.0/Tangy_Models.pdb
+/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/Tangy_Models/obj/Debug/net6.0/ref/Tangy_Models.dll

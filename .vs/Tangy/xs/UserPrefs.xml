@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{F27184BE-116C-4DCB-BA91-96B6F186AC2A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Program.cs">
+    <Files>
+      <File FileName="TangyWeb_Server/Program.cs" Line="37" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tangy" expanded="True">
+            <Node name="TangyWeb_Client" expanded="True" />
+            <Node name="TangyWeb_Server" expanded="True">
+              <Node name="Pages" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.TangyWeb__Client PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

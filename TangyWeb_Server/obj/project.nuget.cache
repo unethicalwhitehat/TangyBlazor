@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XycKj74PupGw5lfi4m/5UlmydZgn4TesLNSzp0vjCvMNZy4WEN1MgwU583YJM2GKQYAAgYq4abSyXAMPHiUFaw==",
+  "dgSpecHash": "UfepXxrI1mCW9gfAm4oxFK2Qf1OlgX9rWlMFAIftRnyGX79cSG90yuseyvdYtutXjW8x5ap7aSPzhxngO1DEXw==",
   "success": true,
-  "projectFilePath": "/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyWeb_Server/TangyWeb_Server.csproj",
+  "projectFilePath": "/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/TangyWeb_Server/TangyWeb_Server.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

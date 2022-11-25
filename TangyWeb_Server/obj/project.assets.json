@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyWeb_Server/TangyWeb_Server.csproj",
+      "projectUniqueName": "/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/TangyWeb_Server/TangyWeb_Server.csproj",
       "projectName": "TangyWeb_Server",
-      "projectPath": "/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyWeb_Server/TangyWeb_Server.csproj",
+      "projectPath": "/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/TangyWeb_Server/TangyWeb_Server.csproj",
       "packagesPath": "/Users/justin/.nuget/packages/",
-      "outputPath": "/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyWeb_Server/obj/",
+      "outputPath": "/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/TangyWeb_Server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/justin/.nuget/NuGet/NuGet.Config"

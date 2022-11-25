@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Pages\LearnBlazor\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\LearnBlazor\" />
+  </ItemGroup>
 </Project>

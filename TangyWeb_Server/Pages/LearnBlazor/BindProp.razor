@@ -2,7 +2,7 @@
 @*
  A "using" statement can be used  in place of calling the full path of the products from the demo products file. It has been added to the global imports file so it can be used in any page on the website 
 *@
-<h2 class="text-success">Individual Product</h2>
+<h2 class="text-success" xmlns="http://www.w3.org/1999/html">Individual Product</h2>
 <div class="row">
     <div class="col-6 border p-3">
         <h3 class="text-primary">Product Playground</h3><hr />
@@ -39,27 +39,43 @@
     </div>
     <br />
 
+<div class="col-12 pt-4">
+    <h2 class="text-success">Product Table</h2>
+    
+    <table class="table table-striped">
+        <tbody>
+        @foreach(var prod in Products)
+        {
+            <tr>
+                <td>
+                    <input type="text" @bind-value="prod.Name" @bind-value:event="oninput" />
+                </td>
+                <td>
+                    <input type="text" @bind-value="prod.Price" @bind-value:event="oninput"/>
+                </td>
+                <td>
+                    <input type="checkbox" @bind-value="prod.IsActive" checked="@(prod.IsActive?"checked":null)"/>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    <br /><br />
+    <h2>Product Summary</h2>
+            @foreach(var prod in Products)
+            {
+                <p>@prod.Name [@prod.Price] is @(prod.IsActive?"Active":"Inactive")</p>
+            }
+    
+</div>
+
+
+
 
 </div>
 
-<h2 class="text-success">Product Table</h2>
-<div class="table">
-    <div class="table">
-        <input type="text" @bind-value="Products.Name" @bind-value:event="oninput" /> <br/>
 
 
-
-
-
-
-
-    </div>
-
-
-
-
-
-</div>
 
 
 @code {
@@ -90,10 +106,11 @@
             ID = 1,
             Name = "Midnight Blaze",
             IsActive = false,
+            Price = 10.99,
             ProductProperties = new()
                 {
-                new Demo_ProductProp { ID = 1, Key = "Flavor", Value = "Rose"},
-                     new Demo_ProductProp { ID = 2, Key = "Size", Value = "20oz"},
+                    new Demo_ProductProp { ID = 1, Key = "Flavor", Value = "Rose"},
+                    new Demo_ProductProp { ID = 2, Key = "Size", Value = "20oz"}, 
                     new Demo_ProductProp { ID = 3, Key = "Color", Value="Purple" }
                 }
         });
@@ -103,6 +120,7 @@
             ID = 2,
             Name = "Blossom Lily",
             IsActive = true,
+            Price = 10.99,
             ProductProperties = new()
             {
                 new Demo_ProductProp { ID = 1, Key = "Flavor", Value = "Lily" },

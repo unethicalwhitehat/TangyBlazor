@@ -1,19 +1,12 @@
 ﻿<Properties StartupConfiguration="{F27184BE-116C-4DCB-BA91-96B6F186AC2A}|Default">
-  <MonoDevelop.Ide.ItemProperties.TangyWeb__Client PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Pages/LearnBlazor/BindProp.razor">
     <Files>
       <File FileName="TangyWeb_Server/Program.cs" />
       <File FileName="TangyWeb_Server/Pages/FetchData.razor" />
-      <File FileName="TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" Line="47" Column="24" />
+      <File FileName="TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" Line="57" Column="1" />
       <File FileName="Tangy_Models/LearnBlazorModels/Demo_ProductProp.cs" />
-      <File FileName="Tangy_Models/LearnBlazorModels/Demo_Product.cs" Line="19" Column="1" />
+      <File FileName="Tangy_Models/LearnBlazorModels/Demo_Product.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -36,4 +29,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TangyWeb__Client PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

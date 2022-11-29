@@ -1,22 +1,34 @@
 ﻿<Properties StartupConfiguration="{F27184BE-116C-4DCB-BA91-96B6F186AC2A}|Default">
+  <MonoDevelop.Ide.ItemProperties.TangyWeb__Client PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Tangy__Models FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Pages/LearnBlazor/BindProp.razor">
     <Files>
       <File FileName="TangyWeb_Server/Program.cs" />
       <File FileName="TangyWeb_Server/Pages/FetchData.razor" />
-      <File FileName="TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" Line="45" Column="6" />
+      <File FileName="TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" Line="47" Column="24" />
+      <File FileName="Tangy_Models/LearnBlazorModels/Demo_ProductProp.cs" />
+      <File FileName="Tangy_Models/LearnBlazorModels/Demo_Product.cs" Line="19" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Tangy" expanded="True">
+            <Node name="Tangy_Models" expanded="True">
+              <Node name="LearnBlazorModels" expanded="True" />
+            </Node>
             <Node name="TangyWeb_Server" expanded="True">
               <Node name="Pages" expanded="True">
                 <Node name="LearnBlazor" expanded="True" />
+              </Node>
+              <Node name="Shared" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -24,8 +36,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.TangyWeb__Client PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
 </Properties>

@@ -2,38 +2,63 @@
 @*
  A "using" statement can be used  in place of calling the full path of the products from the demo products file. It has been added to the global imports file so it can be used in any page on the website 
 *@
-
-<div class="row border p-3">
-<h3 class="text-primary">Product Summary</h3><hr/>
-Name: @Product.Name<br />
-Active: @Product.IsActive<br />
-Price: @Product.Price<br />
-This Product is: @(Product.IsActive?"Active":"Inactive")<br />
-Property Selected: @selectedProp<br />
-@if (!String.IsNullOrWhiteSpace(selectedProp))
-{
-    <p>Property Value: @Product.ProductProperties.FirstOrDefault(u=>u.Key==selectedProp).Value</p>
-}
-</div>
-<br />
-<div class="row border p-3">
-    <h3 class="text-primary">Product Playground</h3><hr/>
-    <div>Active: <input type="checkbox" @bind-value="@Product.IsActive" checked="@(Product.IsActive ? "checked" : null)"/> <br/>
-    </div>
-    <div>
-        Price: <input type="number" @bind-value="@Product.Price" @bind-value:event="oninput"/> <br/>
-    </div>
-    <div>
-        Product Properties:
-        <select @bind="selectedProp">
-            @foreach (var prop in Product.ProductProperties)
-            {
-                <option value="@prop.Key">@prop.Key</option>
-            }
-        </select>
+<h2 class="text-success">Individual Product</h2>
+<div class="row">
+    <div class="col-6 border p-3">
+        <h3 class="text-primary">Product Playground</h3><hr />
+        <div>
+            Active: <input type="checkbox" @bind-value="@Product.IsActive" checked="@(Product.IsActive ? "checked" : null)" /> <br />
         </div>
+        <div>
+            Price: <input type="number" @bind-value="@Product.Price" @bind-value:event="oninput" /> <br />
+        </div>
+        <div>
+            Product Properties:
+            <select @bind="selectedProp">
+                @foreach (var prop in Product.ProductProperties)
+                {
+                    <option value="@prop.Key">@prop.Key</option>
+                }
+            </select>
+        </div>
+        @*Price: <input type="number" @bind=@Product.Price" @bind:event="oninput" />*@
+    </div>
+    <div class="col-6 border p-3">
+        <h3 class="text-primary">Product Summary</h3><hr />
+        Name: @Product.Name<br />
+        Active: @Product.IsActive<br />
+        Price: @Product.Price<br />
+        This Product is: @(Product.IsActive?"Active":"Inactive")<br />
+        Property Selected: @selectedProp<br />
+        @if (!String.IsNullOrWhiteSpace(selectedProp))
+        {
+            <p>Property Value: @Product.ProductProperties.FirstOrDefault(u => u.Key == selectedProp).Value</p>
+        }
 
-    @* Price: <input type="number" @bind=@Product.Price" @bind:event="oninput" /> *@
+
+    </div>
+    <br />
+
+
+</div>
+
+<h2 class="text-success">Product Table</h2>
+<div class="table">
+    <div class="table">
+        <input type="text" @bind-value="Products.Name" @bind-value:event="oninput" /> <br/>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
 </div>
 
 
@@ -42,17 +67,50 @@ Property Selected: @selectedProp<br />
     private string selectedProp = "";
 
 
-    Tangy_Models.LearnBlazorModels.Demo_Product Product = new()
+    Demo_Product Product = new()
     {
         ID = 1,
         Name = "Rose Candle",
         IsActive = true,
         Price = 10.99,
-        ProductProperties = new List<Tangy_Models.LearnBlazorModels.Demo_ProductProp>()
-            {
-                new Demo_ProductProp { ID = 1, Key = "Colour", Value = "Black"},
-                new Demo_ProductProp { ID = 2, Key = "Flavour", Value = "Rose Jasmine"},
-                new Demo_ProductProp { ID = 3, Key = "Size", Value = "20oz"},
-            }
+        ProductProperties = new List<Demo_ProductProp>()
+                {
+                    new Demo_ProductProp { ID = 1, Key = "Colour", Value = "Black"},
+                    new Demo_ProductProp { ID = 2, Key = "Flavour", Value = "Rose Jasmine"},
+                    new Demo_ProductProp { ID = 3, Key = "Size", Value = "20oz"},
+                }
     };
+
+    List<Demo_Product> Products = new();
+
+    protected override void OnInitialized()
+    {
+        Products.Add(new()
+        {
+            ID = 1,
+            Name = "Midnight Blaze",
+            IsActive = false,
+            ProductProperties = new()
+                {
+                new Demo_ProductProp { ID = 1, Key = "Flavor", Value = "Rose"},
+                     new Demo_ProductProp { ID = 2, Key = "Size", Value = "20oz"},
+                    new Demo_ProductProp { ID = 3, Key = "Color", Value="Purple" }
+                }
+        });
+
+        Products.Add(new()
+        {
+            ID = 2,
+            Name = "Blossom Lily",
+            IsActive = true,
+            ProductProperties = new()
+            {
+                new Demo_ProductProp { ID = 1, Key = "Flavor", Value = "Lily" },
+                new Demo_ProductProp { ID = 2, Key = "Size", Value = "18oz" },
+                new Demo_ProductProp { ID = 3,Key = "Color",Value = "White"}
+            }
+        });
     }
+
+
+}

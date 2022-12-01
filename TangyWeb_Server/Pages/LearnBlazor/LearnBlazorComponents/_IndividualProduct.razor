@@ -1,4 +1,5 @@
-<div class="bg-light border p-2 col-5">
+@using Microsoft.AspNetCore.Mvc
+<div class="bg-light border p-2 col-5" @onclick="(args) => LastSelectedProduct(args, Product.Name)">
     <h4 class="text-secondary">Product - @Product.ID</h4>
     <input type="checkbox" @onchange="FavouriteUpdated"/> Add to Favourites <br/><br/>
     Name - @Product.Name<br/>
@@ -22,8 +23,19 @@
     [Parameter]
     public Demo_Product Product { get; set; }
     
+    [Parameter]
+    public EventCallback<bool> OnFavouriteUpdated { get; set; }
+    
+    [Parameter]
+    public EventCallback<string> OnLastSelectedProductChange { get; set; }
+    
     private async Task FavouriteUpdated(ChangeEventArgs e)
     {
-        
+        await OnFavouriteUpdated.InvokeAsync((bool)e.Value);
+    }
+
+    private async Task LastSelectedProduct(MouseEventArgs e, string name)
+    {
+        await OnLastSelectedProductChange.InvokeAsync(name);
     }
 }

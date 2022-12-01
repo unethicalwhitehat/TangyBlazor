@@ -1,12 +1,9 @@
 ﻿<Properties StartupConfiguration="{F27184BE-116C-4DCB-BA91-96B6F186AC2A}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Pages/LearnBlazor/BindProp.razor">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TangyWeb_Server/Pages/LearnBlazor/LearnBlazorComponents/_EditDeleteButton.razor">
     <Files>
-      <File FileName="TangyWeb_Server/Program.cs" />
-      <File FileName="TangyWeb_Server/Pages/FetchData.razor" />
-      <File FileName="TangyWeb_Server/Pages/LearnBlazor/BindProp.razor" Line="57" Column="1" />
-      <File FileName="Tangy_Models/LearnBlazorModels/Demo_ProductProp.cs" />
-      <File FileName="Tangy_Models/LearnBlazorModels/Demo_Product.cs" />
+      <File FileName="TangyWeb_Server/Pages/LearnBlazor/DemoProduct.razor" Line="53" Column="1" />
+      <File FileName="TangyWeb_Server/Pages/LearnBlazor/LearnBlazorComponents/_EditDeleteButton.razor" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +14,11 @@
             </Node>
             <Node name="TangyWeb_Server" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="LearnBlazor" expanded="True" />
+                <Node name="LearnBlazor" expanded="True">
+                  <Node name="LearnBlazorComponents" expanded="True">
+                    <Node name="_EditDeleteButton.razor" selected="True" />
+                  </Node>
+                </Node>
               </Node>
               <Node name="Shared" expanded="True" />
               <Node name="wwwroot" expanded="True">
@@ -29,11 +30,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TangyWeb__Client PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.TangyWeb__Client PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.ItemProperties.TangyWeb__Server PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -40,6 +40,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhcm5CbGF6b3IvRGVtb1Byb2R1Y3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/TangyWeb_Server/Pages/LearnBlazor/LearnBlazorComponents/_EditDeleteButton.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhcm5CbGF6b3IvTGVhcm5CbGF6b3JDb21wb25lbnRzL19FZGl0RGVsZXRlQnV0dG9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/TangyWeb_Server/Pages/LearnBlazor/LearnBlazorComponents/_IndividualProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhcm5CbGF6b3IvTGVhcm5CbGF6b3JDb21wb25lbnRzL19JbmRpdmlkdWFsUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/justin/Dropbox/Mac/Documents/Code/UdemyBlazorCourse/Tangy/TangyBlazor/TangyWeb_Server/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

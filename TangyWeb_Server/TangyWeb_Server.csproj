@@ -8,13 +8,18 @@
 
   <ItemGroup>
     <None Remove="Pages\LearnBlazor\" />
+    <None Remove="Pages\LearnBlazor\LearnBlazorComponents\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\LearnBlazor\" />
+    <Folder Include="Pages\LearnBlazor\LearnBlazorComponents\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tangy_Models\Tangy_Models.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="RazorComponentsPreview" Version="0.6.0" />
   </ItemGroup>
 </Project>

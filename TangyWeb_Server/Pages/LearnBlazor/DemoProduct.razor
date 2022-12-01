@@ -3,27 +3,14 @@
 
 <h2 class="text-primary">DemoProduct</h2>
 
+<p>Favourites Total : @SelectedFavouriteCount</p>
+
 <div class="border m-1 mt-2" style="background-colour:azure">
     <div class="row">
         @foreach (var prod in Products)
         {
-            <div class="bg-light border p-2 col-5">
-                <h4 class="text-secondary">Product - @prod.ID</h4>
-                Name - @prod.Name<br/>
-                Show Properties : 
-                <input type="checkbox" @bind-value="prod.IsActive" checked="@(prod.IsActive?"checked":null)"/>
-                
-                @if (prod.IsActive)
-                {
-                    @foreach (var prodProp in prod.ProductProperties)
-                    {
-                        <p>@prodProp.Key - @prodProp.Value</p>
-                    }
-                }
-                <br/>
-                <input type="button" class="btn btn-danger" style="width:100px;" value="Delete"/>
-                <input type="button" class="btn btn-success" style="width:100px;" value="Edit"/>
-            </div>
+            <_IndividualProduct Product="prod">
+            </_IndividualProduct>
         }
     </div>
     
@@ -34,6 +21,8 @@
 
 @code {
     List<Demo_Product> Products = new();
+    private int SelectedFavouriteCount { get; set; } = 0;
+    
 
     protected override void OnInitialized()
     {
@@ -64,6 +53,18 @@
                 new Demo_ProductProp { ID = 3,Key = "Color",Value = "White"}
             }
         });
+    }
+
+    protected void FavouriteCountUpdate(bool isSelected)
+    {
+        if (isSelected)
+        {
+            SelectedFavouriteCount++;
+        }
+        else
+        {
+            SelectedFavouriteCount--;
+        }
     }
 
 }

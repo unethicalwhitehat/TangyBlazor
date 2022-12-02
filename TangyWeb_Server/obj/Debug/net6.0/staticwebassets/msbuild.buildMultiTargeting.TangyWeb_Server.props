@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../build/TangyWeb_Server.props" />
+  <Import Project="..\build\TangyWeb_Server.props" />
 </Project>

@@ -4,12 +4,13 @@
 
 
 <_ChildComponent OnButtonClick="ShowMessage" Title="This title is passed as a parameter from the Parent Component">
-    Render Fragment From Parent
+    <ChildContent>Render Fragment From Parent</ChildContent>
+    <DangerChildContent>Danger content from render fragment</DangerChildContent>
 </_ChildComponent>
 
 <p><b>@messageText</b></p>
 
-<_ChildComponent Title="This is a second child component"></_ChildComponent>
+@*<_ChildComponent Title="This is a second child component"></_ChildComponent>*@
 
 @code {
     public string messageText = "";

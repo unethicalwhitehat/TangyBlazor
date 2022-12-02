@@ -5,14 +5,16 @@
 
 <_ChildComponent OnButtonClick="ShowMessage" Title="This title is passed as a parameter from the Parent Component">
     <ChildContent>Render Fragment From Parent</ChildContent>
-    <DangerChildContent>Danger content from render fragment</DangerChildContent>
+    @*<DangerChildContent>Danger content from render fragment</DangerChildContent>*@
 </_ChildComponent>
 
 <p><b>@messageText</b></p>
+<_AnotherChildComponent placeholder="Placeholder from parent"></_AnotherChildComponent>
 
 @*<_ChildComponent Title="This is a second child component"></_ChildComponent>*@
 
 @code {
+
     public string messageText = "";
 
     private void ShowMessage()

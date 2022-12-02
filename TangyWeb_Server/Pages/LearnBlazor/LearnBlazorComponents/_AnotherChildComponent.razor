@@ -1,0 +1,24 @@
+﻿<div>
+    <h4 class="text-primary pt-3">Another child component</h4>
+    @*The placeholder specified by the child will take precedence over the parent placeholder if the child placeholder is to the right of the parent attributes being specified. If it is to the left, the parent attributes will take precedence *@
+    <input id="nametemp" @attributes="InputAttributes" placeholder="Child placeholder"/>
+
+</div>
+@code {
+    //[Parameter]
+    //public string Placeholder { get; set; } = "Initial text";
+    //[Parameter]
+    //public string Required { get; set; } = "Required";
+    //[Parameter]
+    //public string MaxLength { get; set; } = "10";
+
+    //Attribute splatting can be used in place of manually defining these properties each time
+
+
+    //This will automatically find anything that has been changed in the parent component and override it accordingly
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object> InputAttributes { get; set; } = new Dictionary<string, object>();
+
+}
+
+

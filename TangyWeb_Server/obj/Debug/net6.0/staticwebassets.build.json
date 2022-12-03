@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3pX6+drmG/lyOs0tVtWZ1W2UKlMLppB7VYEjBbbfQzs=",
+  "Hash": "xDMQ67kFEc070Dq9+fKkQ0edX5crOURxoddFlWsZqzg=",
   "Source": "TangyWeb_Server",
   "BasePath": "_content/TangyWeb_Server",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TangyWeb_Server\\wwwroot",
       "Source": "TangyWeb_Server",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
       "BasePath": "_content/TangyWeb_Server",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TangyWeb_Server.styles.css",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TangyWeb_Server.styles.css",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "TangyWeb_Server.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TangyWeb_Server.styles.css"
+      "OriginalItemSpec": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TangyWeb_Server.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TangyWeb_Server.bundle.scp.css",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TangyWeb_Server.bundle.scp.css",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "TangyWeb_Server.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TangyWeb_Server.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TangyWeb_Server.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\css\\site.css",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\favicon.ico",
       "SourceId": "TangyWeb_Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
+      "ContentRoot": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\TangyWeb_Server\\wwwroot\\",
       "BasePath": "_content/TangyWeb_Server",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

@@ -22,3 +22,15 @@ C:\Users\Justin Tyson\Dropbox\PC\Documents\GitHub\TangyBlazor\Tangy_Models\obj\D
 C:\Users\Justin Tyson\Dropbox\PC\Documents\GitHub\TangyBlazor\Tangy_Models\obj\Debug\net6.0\refint\Tangy_Models.dll
 C:\Users\Justin Tyson\Dropbox\PC\Documents\GitHub\TangyBlazor\Tangy_Models\obj\Debug\net6.0\Tangy_Models.pdb
 C:\Users\Justin Tyson\Dropbox\PC\Documents\GitHub\TangyBlazor\Tangy_Models\obj\Debug\net6.0\ref\Tangy_Models.dll
+D:\Users\justi\Documents\GitHub\TangyBlazor\Tangy_Models\bin\Debug\net6.0\Tangy_Models.deps.json
+D:\Users\justi\Documents\GitHub\TangyBlazor\Tangy_Models\bin\Debug\net6.0\Tangy_Models.dll
+D:\Users\justi\Documents\GitHub\TangyBlazor\Tangy_Models\bin\Debug\net6.0\Tangy_Models.pdb
+D:\Users\justi\Documents\GitHub\TangyBlazor\Tangy_Models\obj\Debug\net6.0\Tangy_Models.csproj.AssemblyReference.cache
+D:\Users\justi\Documents\GitHub\TangyBlazor\Tangy_Models\obj\Debug\net6.0\Tangy_Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\justi\Documents\GitHub\TangyBlazor\Tangy_Models\obj\Debug\net6.0\Tangy_Models.AssemblyInfoInputs.cache
+D:\Users\justi\Documents\GitHub\TangyBlazor\Tangy_Models\obj\Debug\net6.0\Tangy_Models.AssemblyInfo.cs
+D:\Users\justi\Documents\GitHub\TangyBlazor\Tangy_Models\obj\Debug\net6.0\Tangy_Models.csproj.CoreCompileInputs.cache
+D:\Users\justi\Documents\GitHub\TangyBlazor\Tangy_Models\obj\Debug\net6.0\Tangy_Models.dll
+D:\Users\justi\Documents\GitHub\TangyBlazor\Tangy_Models\obj\Debug\net6.0\refint\Tangy_Models.dll
+D:\Users\justi\Documents\GitHub\TangyBlazor\Tangy_Models\obj\Debug\net6.0\Tangy_Models.pdb
+D:\Users\justi\Documents\GitHub\TangyBlazor\Tangy_Models\obj\Debug\net6.0\ref\Tangy_Models.dll

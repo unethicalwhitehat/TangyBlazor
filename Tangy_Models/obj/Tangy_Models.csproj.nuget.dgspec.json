@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\Tangy_Models\\Tangy_Models.csproj": {}
+    "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\Tangy_Models\\Tangy_Models.csproj": {}
   },
   "projects": {
-    "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\Tangy_Models\\Tangy_Models.csproj": {
+    "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\Tangy_Models\\Tangy_Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\Tangy_Models\\Tangy_Models.csproj",
+        "projectUniqueName": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\Tangy_Models\\Tangy_Models.csproj",
         "projectName": "Tangy_Models",
-        "projectPath": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\Tangy_Models\\Tangy_Models.csproj",
-        "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\justi\\Documents\\GitHub\\TangyBlazor\\Tangy_Models\\obj\\",
+        "projectPath": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\Tangy_Models\\Tangy_Models.csproj",
+        "packagesPath": "C:\\Users\\Justin Tyson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Justin Tyson\\Dropbox\\PC\\Documents\\GitHub\\TangyBlazor\\Tangy_Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Justin Tyson\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

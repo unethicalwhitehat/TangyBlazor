@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,11 @@ namespace Tangy_DataAccess.Data
 {
     public class ApplicationDbContext : DbContext
     {
+        public ApplicationDbContext(DbContentOptions<ApplicationDbContext> options) : base(options)
+        {
+
+        }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }

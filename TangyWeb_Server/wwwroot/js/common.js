@@ -6,3 +6,20 @@
         toastr.error(message, "Operation Failed", { timeOut: 5000 });
     }
 }
+
+window.ShowSwal = (type, message) => {
+    if (type == "success") {
+        Swal.fire(
+            'Success notification!',
+            message,
+            'success'
+        )
+    }
+    if (type == "error") {
+        Swal.fire(
+            'Error notification!',
+            message,
+            'error'
+        )
+    }
+}
